@@ -11,7 +11,8 @@ number of days, domains deleted in number of days, frequency of checking TLDs, e
 You can add a dictionary of words by supplying a plain text file "words.txt" in the root directory of the application. 
 You can also specify a list of TLDs you would like checked by adding them to "tlds.txt".
 
-****#Installation Instructions****
+# Installation Instructions
+
 1. Create database using the supplied "whois_one.sql.zip" file by importing it directly to your database
 2. Unzip the "whois-complete.zip" to your server.
 3. Edit the "config.php" file in the root folder and change the following parameters:
