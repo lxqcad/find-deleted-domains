@@ -16,6 +16,7 @@ You can also specify a list of TLDs you would like checked by adding them to "tl
 1. Create database using the supplied "whois_one.sql.zip" file by importing it directly to your database
 2. Unzip the "whois-complete.zip" to your server.
 3. Edit the "config.php" file in the root folder and change the following parameters:
+  # database configuration
     $approot = "https://emulate.ml/whois"; 
     $dbhost = 'localhost';
     $dbname = 'whois_one';
